@@ -166,7 +166,7 @@ nav.navbar .navbar-toggler-icon:before {
 	width: 24px;
 	position: absolute;
 	height: 2px;
-	background-color: #fff;
+	background-color: black;
 	top: 0;
 	left: 0;
 	content: '';
@@ -319,6 +319,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1em;
 }
 
 .skill p {

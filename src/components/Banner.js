@@ -43,7 +43,7 @@ export const Banner = () => {
         <section className="banner" id="welcome">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={17} md={11} xl={12}>
+                    <Col>
                         <span className="tagline">
                             SovTech Graduate Programme challenge | Software Engineering
                         </span>
