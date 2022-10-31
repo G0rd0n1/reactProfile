@@ -29,9 +29,9 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#welcome" className={activeLink === 'welcome' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('welcome')}>WELCOME</Nav.Link>
-                        <Nav.Link href="#slideshow" className={activeLink === 'slideshow' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('slideshow')}>Slideshow</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Who Am I</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Why SovTech</Nav.Link>
+                        <Nav.Link href="#slideshower" className={activeLink === 'slideshower' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('slideshower')}>Slideshow</Nav.Link>
+                        <Nav.Link href="#whoAmI" className={activeLink === 'whoAmI' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoAmI')}>Who Am I</Nav.Link>
+                        <Nav.Link href="#whySovtech" className={activeLink === 'whySovtech' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whySovtech')}>Why SovTech</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

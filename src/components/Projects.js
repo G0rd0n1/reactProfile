@@ -1,7 +1,6 @@
 import portfolio from "../assets/img/portfolio.png";
 import videoCapturing from "../assets/img/video.png";
 import nutritionApp from "../assets/img/nutrition.png";
-import footer from "../assets/img/footer-bg.png";
 
 export const Projects = () => {
 
@@ -31,7 +30,6 @@ export const Projects = () => {
                 </div>
             </div>
         </div>
-        <img src={footer} alt="footer" />
     </div>            
   );
 }

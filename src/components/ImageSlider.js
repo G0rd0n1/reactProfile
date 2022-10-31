@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Container} from "react-bootstrap";
 import { useRef, useEffect, useState } from "react";
 import image1 from '../assets/img/Gordon1.jpg';
 import image2 from '../assets/img/Gordon2.jpg';
@@ -18,22 +19,24 @@ export const ImageSlider = () => {
 
 
     return (
-        <motion.div ref={carousel} id="slideshow" className="carousel" whileTap={{cursor: "grabbing"}}>
-            <motion.div 
-                drag="x" 
-                dragConstraints={{ right: 0, left: -width }} 
-                className="inner-carouselsss"
-            >
-                <motion.div className="slideshow">
-                   <img src={image1} alt="" />
-                   <img src={image2} alt="" />
-                   <img src={image3} alt="" />
-                   <img src={image4} alt="" />
-                   <img src={image5} alt="" />
-                   <img src={image6} alt="" />
-                   <img src={image7} alt="" />
+        <Container id="slideshower">
+            <motion.div ref={carousel} id="slideshow" className="carousel" whileTap={{cursor: "grabbing"}}>
+                <motion.div 
+                    drag="x" 
+                    dragConstraints={{ right: 0, left: -width }} 
+                    className="inner-carouselsss"
+                >
+                    <motion.div className="slideshow">
+                       <img src={image1} alt="" />
+                       <img src={image2} alt="" />
+                       <img src={image3} alt="" />
+                       <img src={image4} alt="" />
+                       <img src={image5} alt="" />
+                       <img src={image6} alt="" />
+                       <img src={image7} alt="" />
+                    </motion.div>
                 </motion.div>
             </motion.div>
-        </motion.div>
+        </Container>
     );
 }

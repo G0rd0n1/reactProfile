@@ -32,7 +32,7 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>
+                            <h2 id="whoAmI">
                             Who Am I?
                             </h2>
                             <h3>Gordon Dindi</h3>
@@ -51,7 +51,7 @@ export const Skills = () => {
                                     <img src={drawing3} alt="Image" />
                                 </div> 
                             </Carousel>
-                            <h2>
+                            <h2 id="whySovtech">
                             Why SovTech?
                             </h2>
                             <h5>"The culture is second to none and opportunities to try new ideas and find your niche are aplenty here."</h5>
