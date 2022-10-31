@@ -52,7 +52,7 @@ export const Banner = () => {
                                 {text}
                             </span>
                         </h1>
-                        <h3><ArrowRightCircle size={20}/> I am the sauce in sausage</h3>
+                        <h3><ArrowRightCircle size={20}/> Introduction</h3>
                         <br />
                         <p>I am currently in the process of completing my studies as a WeThinkCode_ student. Where I am studying Software Engineering and enjoying it every step of the way, having worked on multiple projects whether it being solo or group projects using Python and Java. I have always had a passion for coding which I could not run away from.</p>
                     </Col>
