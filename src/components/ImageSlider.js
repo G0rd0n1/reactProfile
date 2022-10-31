@@ -23,7 +23,7 @@ export const ImageSlider = () => {
             <motion.div ref={carousel} id="slideshow" className="carousel" whileTap={{cursor: "grabbing"}}>
                 <motion.div 
                     drag="x" 
-                    dragConstraints={{ right: 0, left: -width }} 
+                    dragConstraints={{ right: 0, left: -width }}
                     className="inner-carouselsss"
                 >
                     <motion.div className="slideshow">

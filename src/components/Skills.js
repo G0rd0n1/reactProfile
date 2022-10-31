@@ -36,7 +36,7 @@ export const Skills = () => {
                             Who Am I?
                             </h2>
                             <h3>Gordon Dindi</h3>
-                            <p>I am a 27 year old male who attended primary school in England and completed my schooling in Cape Town at Milnerton High School. 
+                            <p className="thicker">I am a 27 year old male who attended primary school in England and completed my schooling in Cape Town at Milnerton High School. 
                                 I am a hard working and committed person who easily adapts into new places and loves adventure. 
                                 I think if I didn't have a passion for coding, I would've pursued to be an Artist/Graphic Designer. 
                                 Along with coding, drawing and design have always been skills I hope to enhance.</p>
