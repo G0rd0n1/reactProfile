@@ -269,31 +269,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ SLIDESHOW CSS ************/
 
 .slideshow{
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  margin: 60px;
+  height: 100%;
+  width: 100%;
+  border-radius: 90%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: center;
   display: flex;
 }
 
 .slideshow img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-left: 4rem;
-  pointer-events: none;
+  position: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 40%;
+  /* margin-left: 4rem; */
 }
 
-.inner-carouselsss {
-  display: flex;
+.skill-bx{
+  background: white;
+  margin: 10px 20px 10px 20px;
 }
 
-.carousel {
-  width: 100%;
-  cursor: grab;
-  overflow: hidden;
-  background-image: url('./assets/img/color-sharp2.png');
+.image-sliderrr{
+  border-radius: 20%;
+}
+
+.item-sliderrr{
+  padding: 8% 8% 8% 8%;
 }
 
 

@@ -6,7 +6,7 @@ import drawing2 from "../assets/img/Tana.jpg";
 import drawing3 from "../assets/img/Draw2.jpg";
 import colorSharp from "../assets/img/color-sharp.png";
 
-export const Skills = () => {
+export const SovTech = () => {
     const responsive = {
         superLargeDesktop: {
             breakpoint: {max: 4000, min: 3000 },
